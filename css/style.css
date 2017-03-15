@@ -118,6 +118,7 @@ nav {
 	background-color: #05aecc;
 	padding: 0 116px 0 118px;
 	margin-top: 13px;
+	margin-bottom: 15px;
 }
 
 nav ul li {
@@ -155,6 +156,8 @@ nav ul li:hover a {
 }
 
 
+/* КОНЕЦ ХЭДЕРА  */
+
 
 /* ВЫПАДАЮЩЕЕ МЕНЮ */
 
@@ -170,6 +173,7 @@ nav ul li ul {
 	left: -5000px;
 	opacity: 0;
 	-webkit-transition:0.25s linear opacity;
+	z-index: 10;
 }
 
 nav ul li ul li {
@@ -245,3 +249,314 @@ nav ul li:hover ul {
 
 
 /*   КОНЕЦ ВЫПАДАЮЩЕГО МЕНЮ   */
+
+
+/* НАЧАЛО СЕКЦИИ */
+
+.section-1-left {
+	height: 570px;
+	width: 670px;
+	background-image: url(../img/men-wear.png);
+	background-color: #142251;
+	opacity: 0.87;
+	position: relative;
+	float: left;
+}
+
+.section-1-left-descr {
+	position: absolute;
+	width: 348px;
+	height: 105px;
+	opacity: 0.8;
+	background-color: #362a4f;
+	top: 400px;
+}
+
+.section-1-left-descr h3 {
+	color: #ef5966;
+	font-family: Aparajita;
+	font-size: 58px;
+	font-weight: 400;
+	text-transform: uppercase;
+	margin: 0;
+	padding: 0 0 0 20px;
+}
+
+.section-1-left-descr p {
+	color: white;
+	font-family: Lato;
+	font-size: 13px;
+	font-weight: 400;
+	text-transform: uppercase;
+	margin: 0;
+	padding: 0 0 0 20px;
+}
+
+.section-1-left-descr a {
+	text-decoration: none;
+}
+
+.section-1-left-descr a:hover h3{
+	text-decoration: underline;
+}
+
+
+.section-1-left-descr-2 {
+	position: absolute;
+	width: 348px;
+	height: 41px;
+	opacity: 0.88;
+	background-color: #ef5966;
+	top: 508px;
+}
+
+.section-1-left-descr-2 p {
+	color: white;
+	font-family: Aparajita;
+	font-size: 20px;
+	font-weight: 400;
+	text-transform: uppercase;
+	padding: 0 0 0 20px;
+	line-height: 0.5;
+}
+
+.section-1-right {
+	height: 570px;
+	width: 494px;
+	float: right;
+}
+
+.section-1-right-top {
+	background-image: url(../img/women-wear.png);
+	background-color: #142251;
+	opacity: 0.87;
+	position: relative;
+	width: 494px;
+	height: 320px;
+}
+
+.section-1-right-descr {
+	position: absolute;
+	width: 267px;
+	height: 83px;
+	opacity: 0.8;
+	background-color: #362a4f;
+	top: 230px;
+}
+
+.section-1-right-descr h3 {
+	color: #ef5966;
+	font-family: Aparajita;
+	font-size: 35px;
+	font-weight: 400;
+	text-transform: uppercase;
+	margin: 0;
+	padding: 0 0 0 20px;
+}
+
+.section-1-right-descr p {
+	color: white;
+	font-family: Lato;
+	font-size: 13px;
+	font-weight: 400;
+	text-transform: uppercase;
+	margin: 0;
+	padding: 0 0 0 20px;
+}
+
+.section-1-right-descr a {
+	text-decoration: none;
+}
+
+.section-1-right-descr a:hover h3{
+	text-decoration: underline;
+}
+
+.section-1-right-bottom {
+	background-image: url(../img/baby-shop.png);
+	margin-top: 5px;
+	width: 494px;
+	height: 245px;
+	opacity: 0.87;
+	background-color: #142251;
+	position: relative;
+}
+
+.btn-baby {
+	position: absolute;
+	width: 292px;
+	height: 55px;
+	background-color: #05aecc;
+	right: 0;
+	bottom: 28px;
+}
+
+.btn-baby div {
+	float: left;
+}
+
+.btn-baby-1 {
+	height: 55px;
+	width: 100px;
+	color: white;
+	font-family: Lato;
+	font-size: 16px;
+	font-weight: 400;
+	text-align: center;
+	line-height: 3;
+}
+
+.btn-baby-1 a {
+	text-decoration: none;
+	color: white;
+}
+
+.btn-baby-1 a:hover {
+	text-decoration: underline;
+}
+
+.btn-baby-2 {
+	height: 55px;
+	width: 53px;
+	background-color: #00a1be;
+	background-image: url('../img/gift-icon.png');
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.btn-baby-3 {
+	height: 55px;
+	width: 53px;
+	background-color: #f0626e;
+	background-image: url('../img/cart-icon.png');
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.btn-baby-4 {
+	height: 55px;
+	width: 86px;
+	background-color: #323232;
+	color: white;
+	font-family: Lato;
+	font-size: 24px;
+	font-weight: 400;
+	text-align: center;
+	line-height: 2;
+}
+
+.btn-baby-4 span {
+	font-size: 14px;
+}
+
+/* КОНЕЦ СЕКЦИИ   */
+
+
+/* НАЧАЛО СЕКЦИИ 2  */
+
+.section-2 {
+	margin-top: 5px;
+}
+
+.section-2-left {
+	height: 510px;
+	width: 670px;
+	float: left;
+}
+
+.section-2-left-top {
+	width: 670px;
+	height: 171px;
+	background-color: #f0626e;
+	position: relative;
+}
+
+.section-2-left-top input {
+	width: 485px;
+	height: 71px;
+	background-color: white;
+	box-shadow: 1px 1.7px 7px rgba(0, 0, 0, 0.19);
+	border: none;
+	font-family: Lato;
+	font-size: 16px;
+	font-weight: 400;
+	color: #424242;
+	position: absolute;
+	top: 51px;
+	left: 57px;
+}
+
+.search {
+	background-image: url(../img/loop.png);
+	background-repeat: no-repeat;
+	background-position: right center;
+	width: 53px;
+	height: 53px;
+	background-color: transparent;
+	border: none;
+	position: absolute;
+	right: 5%;
+	top: 35%;
+}
+
+.section-2-left-bottom {
+	width: 670px;
+	height: 335px;
+	opacity: 0.87;
+	background-color: #142251;
+	margin-top: 4px;
+	background-image: url(../img/crafts-bg.png);
+	position: relative;
+}
+
+.section-2-left-bottom .btn-baby {
+	width: 409px;
+	background-color: #362a4f;
+	bottom: 0;
+	opacity: 0.8;
+}
+
+.section-2-left-bottom .btn-baby-1 {
+	width: 217px;
+	font-size: 30px;
+	font-weight: 400;
+	text-align: center;
+	line-height: 2;
+	text-transform: uppercase;
+}
+
+.section-2-right {
+	width: 494px;
+	height: 510px;
+	opacity: 0.87;
+	background-color: #142251;
+	float: right;
+	background-image: url(../img/jewelry.png);
+	position: relative;
+}
+
+.jewelry {
+	width: 87px;
+	height: 396px;
+	opacity: 0.58;
+	background-color: #362a4f;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	color: white;
+	font-family: Aparajita;
+	font-size: 25px;
+	font-weight: 400;
+	text-transform: uppercase;
+}
+
+.section-2-right a {
+	display: block;
+	width: 97px;
+	height: 98px;
+	position: absolute;
+	right: 0;
+	top: 132px;
+	background-image: url(../img/jewelry-btn.png);
+}
+
