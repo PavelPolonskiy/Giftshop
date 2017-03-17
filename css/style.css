@@ -431,6 +431,27 @@ nav ul li:hover ul {
 	background-image: url('../img/cart-icon.png');
 	background-repeat: no-repeat;
 	background-position: center;
+	position: relative;
+}
+
+.btn-baby-3:hover {
+	cursor: pointer;
+}
+
+.add-to-cart {
+	position: absolute;
+	width: 111px;
+	height: 37px;
+	background-image: url(../img/bg-add-to-cart.png);
+	text-align: center;
+	line-height: 1.5;
+	top: -31px;
+	left: -28px;
+	visibility: hidden;
+}
+
+.btn-baby-3:hover .add-to-cart{
+	visibility: visible;
 }
 
 .btn-baby-4 {
@@ -499,6 +520,10 @@ nav ul li:hover ul {
 	top: 35%;
 }
 
+.search:hover {
+	cursor: pointer;
+}
+
 .section-2-left-bottom {
 	width: 670px;
 	height: 335px;
@@ -560,3 +585,420 @@ nav ul li:hover ul {
 	background-image: url(../img/jewelry-btn.png);
 }
 
+/* КОНЕЦ СЕКЦИИ 2 */
+
+/* НАЧАЛО НОВЫХ ПРОДУКТОВ   */
+
+.new-products-nav {
+	height: 79px;
+	margin-top: 26px;
+	border-bottom: 1px solid #b9b9b9;
+	position: relative;
+}
+
+.box-name {
+	margin-left: 31px;
+	color: #00a1be;
+	font-family: Lato;
+	font-size: 30px;
+	font-weight: 400;
+	position: absolute;
+	bottom: 13px;
+}
+
+.arrows {
+	float: right;
+}
+
+.left-a {
+	width: 70px;
+	height: 79px;
+	background-image: url(../img/left-a.png);
+	margin-right: 1px;
+	float: left;
+}
+
+.right-a {
+	width: 70px;
+	height: 79px;
+	background-image: url(../img/right-a.png);
+	float: right;
+}
+
+.left-a:hover, .right-a:hover {
+	cursor: pointer;
+}
+
+.slider-ul {
+	padding: 0;
+	margin: 16px 0 0 0;
+	height: 200px;
+	width: 9999px;
+	position: relative;
+}
+
+.slider-wrap {
+	overflow: hidden;
+	height: 200px;
+	width: 1170px;
+	position: relative;
+}
+
+.slider-ul li {
+	display: block;
+	float: left;
+	width: 370px;
+	height: 200px;
+	opacity: 0.87;
+	background-color: #142251;
+	position: relative;
+}
+
+.slider-ul li+li {
+	margin-left: 30px;
+}
+
+.slider-ul .btn-baby {
+	right: 37px;
+	bottom: 67px;
+	visibility: hidden;
+}
+
+.slider-ul li:hover .btn-baby {
+	visibility: visible;
+}
+
+.slider-ul li:hover {
+	cursor: pointer;
+}
+
+/*  КОНЕЦ НОВЫХ ПРОДУКТОВ  */
+
+
+/* НАЧАЛО БУДУЩИХ ПРОДУКТОВ  */
+
+
+.left-a.pink {
+	background-image: url(../img/left-a-pink.png);
+}
+
+.slider-ul li.featured:hover {
+	cursor: default;
+}
+
+.slider-ul.featured {
+	height: 400px;
+}
+
+.slider-wrap.featured {
+	height: 416px;
+}
+
+.slider-ul li.featured {
+	width: 270px;
+	height: 400px;
+}
+
+.price {
+	width: 270px;
+	height: 56px;
+	background-color: white;
+	position: absolute;
+	bottom: 0;
+}
+
+.price div {
+	height: 56px;
+	width: 56px;
+	float: left;
+	border: 1px solid #ddd;
+}
+
+.price div:hover {
+	cursor: pointer;
+}
+
+.price div:last-child {
+	width: 102px;
+}
+
+.price div:nth-child(1) {
+	background-image: url(../img/price-bgi-1.png);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.price div:nth-child(2) {
+	background-image: url(../img/price-bgi-2.png);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.price div:nth-child(3) {
+	background-image: url(../img/price-bgi-3.png);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.price div:nth-child(4) {
+	background-color: #f0626e;
+	color: white;
+	font-family: Lato;
+	font-size: 24px;
+	font-weight: 400;
+	text-align: center;
+	line-height: 2;
+}
+
+.descr-featured {
+	width: 268px;
+	height: 55px;
+	background-color: white;
+	position: absolute;
+	bottom: 56px;
+	left: 1px;
+}
+
+.descr-featured-top {
+	color: #434343;
+	font-family: Lato;
+	font-size: 18px;
+	font-weight: 400;
+	padding: 10px 0 0 15px;
+}
+
+.descr-featured-bottom {
+	color: #f0626e;
+	font-family: Lato;
+	font-size: 13px;
+	font-weight: 400;
+	padding: 0 0 0 15px;
+}
+
+.information {
+	width: 80px;
+	height: 34px;
+	background-color: #f0626e;
+	position: absolute;
+	left: 0;
+	top: 13px;
+	text-align: center;
+	line-height: 2.5;
+	color: white;
+	font-family: Lato;
+	font-size: 14px;
+	font-weight: 400;
+}
+
+li.featured:hover .information, li.featured:hover .price div:last-child{
+	background-color: #05aecc;
+}
+
+li.featured:hover .descr-featured-bottom {
+	color: #05aecc;
+}
+
+/* КОНЕЦ БУДУЩИХ ПРОДУКТОВ   */
+
+/* НАЧАЛО WHO WE ARE   */
+
+.wwa-desr {
+	color: #464646;
+	font-family: Lato;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 26px;
+	padding: 25px 20px;
+}
+
+.wwa-nav-item {
+	width: 370px;
+	height: 232px;
+	background-color: #434343;
+	background-image: url(../img/wwa-nav-item-1.png);
+	background-repeat: no-repeat;
+	background-position: 41px 39px;
+	position: relative;
+	float: left;
+	transition: all, 0.9, ease-in;
+}
+
+.wwa-nav-item:nth-child(2) {
+	background-image: url(../img/wwa-nav-item-2.png);
+	background-color: #05aecc;
+}
+
+.wwa-nav-item:nth-child(3) {
+	background-image: url(../img/wwa-nav-item-3.png);
+	background-color: #f0626e;
+}
+
+.wwa-nav-item+.wwa-nav-item {
+	margin-left: 30px;
+}
+
+.wwa-nav-item-text {
+	color: white;
+	font-family: Lato;
+	font-size: 30px;
+	font-weight: 400;
+	width: 117px;
+	height: 52px;
+	position: absolute;
+	top: 92px;
+	right: 42px;
+}
+
+.wwa-nav-item:nth-child(2) .wwa-nav-item-text {
+	width: 120px;
+	height: 57px;
+}
+
+.wwa-nav-item:hover {
+	cursor: pointer;
+	opacity: 0.8;
+}
+
+.regnow {
+	width: 648px;
+	height: 61px;
+	background-color: #05aecc;
+	margin: 30px auto;
+	color: white;
+	font-family: Lato;
+	font-size: 28px;
+	font-weight: 400; 
+	text-align: center;
+	line-height: 2;
+}
+
+.regnow:hover {
+	cursor: pointer;
+	background-color: #138DA2;
+}
+
+/*  КОНЕЦ  WHO WE ARE  */
+
+/* НАЧАЛО footer   */
+
+footer {
+	border-top: 1px solid #b9b9b9;
+}
+
+.footer-item {
+	width: 236px;
+	float: left;
+	margin-top: 45px;
+}
+
+.footer-item+.footer-item {
+	margin-left: 25px;
+}
+
+.footer-item h5 {
+	color: #434343;
+	font-size: 23px;
+	text-transform: uppercase;
+	margin: 0;
+	padding: 0;
+	font-family: Lato;
+	font-weight: 400;
+	margin-bottom: 40px;
+}
+
+.footer-item ul {
+	margin: 0;
+	padding: 0;
+}
+
+.footer-item ul li {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	color: #676767;
+	font-size: 16px;
+	font-family: Lato;
+	font-weight: 400;
+	margin-bottom: 5px;
+}
+
+.footer-item ul li a {
+	color: #676767;
+	text-decoration: none;
+}
+
+.footer-item ul li a:hover {
+	text-decoration: underline;
+}
+
+.footer-item input {
+	width: 377px;
+	height: 51px;
+	border: 1px solid #dedede;
+	color: #434343;
+	font-family: Lato;
+	font-size: 14px;
+	font-weight: 400;
+	text-transform: uppercase;
+}
+
+.footer-item button {
+	width: 377px;
+	height: 51px;
+	background-color: #05aecc;
+	border: none;
+	color: white;
+	font-family: Lato;
+	font-size: 14px;
+	font-weight: 400;
+	text-transform: uppercase;
+}
+
+.footer-item button:hover {
+	cursor: pointer;
+	background-color: #138DA2;
+}
+
+.social {
+	height: 54px;
+	width: 310px;
+}
+
+.social a {
+	display: block;
+	height: 54px;
+	width: 54px;
+	float: left;
+}
+
+.social a+a {
+	margin-left: 10px;
+}
+
+/* КОНЕЦ footer   */
+
+.copyright {
+	border-top: 1px solid #b9b9b9;
+	color: #434343;
+	font-family: Lato;
+	font-size: 14px;
+	font-weight: 400;
+	margin: 50px 0 80px 0;
+	padding: 25px 0;
+	padding-bottom: 40px;
+	border-bottom: 1px solid #b9b9b9;
+}
+
+.copy-left {
+	
+	padding-left: 25px;
+	float: left;
+}
+
+.copy-right {
+	float: right;
+}
+
+.copy-right span {
+	color: #f0626e;
+}
