@@ -1,0 +1,25 @@
+@font-face {
+	font-family: 'Aparajita';
+	src: url(../fonts/aparaj.ttf);
+}
+
+body {
+	margin: 0;
+}
+
+.wrap {
+	width: 1170px;
+	margin: 0 auto;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+@import 'header';
+@import 'section';
+@import 'section2';
+@import 'newproducts';
+@import 'featuredproducts';
+@import 'wwa';
+@import 'footer';

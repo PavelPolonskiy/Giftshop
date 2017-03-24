@@ -1,0 +1,112 @@
+.section-2 {
+	margin-top: 5px;
+}
+
+.section-2-left {
+	height: 510px;
+	width: 670px;
+	float: left;
+}
+
+.section-2-left-top {
+	width: 670px;
+	height: 171px;
+	background-color: #f0626e;
+	position: relative;
+}
+
+.section-2-left-top input {
+	width: 485px;
+	height: 71px;
+	background-color: white;
+	box-shadow: 1px 1.7px 7px rgba(0, 0, 0, 0.19);
+	border: none;
+	font-family: Lato;
+	font-size: 16px;
+	font-weight: 400;
+	color: #424242;
+	position: absolute;
+	top: 51px;
+	left: 57px;
+}
+
+.search {
+	background-image: url(../img/loop.png);
+	background-repeat: no-repeat;
+	background-position: right center;
+	width: 53px;
+	height: 53px;
+	background-color: transparent;
+	border: none;
+	position: absolute;
+	right: 5%;
+	top: 35%;
+}
+
+.search:hover {
+	cursor: pointer;
+}
+
+.section-2-left-bottom {
+	width: 670px;
+	height: 335px;
+	margin-top: 4px;
+	background-image: url(../img/crafts-bg.png);
+	position: relative;
+}
+
+.section-2-left-bottom .btn-baby {
+	width: 409px;
+	background-color: #362a4f;
+	bottom: 0;
+	opacity: 0.8;
+}
+
+.section-2-left-bottom .btn-baby-1 {
+	width: 217px;
+	font-size: 30px;
+	font-weight: 400;
+	text-align: center;
+	line-height: 2;
+	text-transform: uppercase;
+}
+
+.section-2-right {
+	width: 494px;
+	height: 510px;
+	float: right;
+	background-image: url(../img/jewelry.png);
+	position: relative;
+}
+
+.jewelry {
+	width: 87px;
+	height: 396px;
+	opacity: 0.58;
+	background-color: #362a4f;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	color: white;
+}
+
+.jewelry span {
+	transform: rotate(-90deg);
+	position: absolute;
+	bottom: 102px;
+	left: -65px;
+	font-family: Aparajita;
+	font-size: 65px;
+	font-weight: 400;
+	text-transform: uppercase;
+}
+
+.section-2-right a {
+	display: block;
+	width: 97px;
+	height: 98px;
+	position: absolute;
+	right: 0;
+	top: 132px;
+	background-image: url(../img/jewelry-btn.png);
+}

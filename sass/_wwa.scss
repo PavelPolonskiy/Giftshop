@@ -1,0 +1,74 @@
+.wwa-desr {
+	color: #464646;
+	font-family: Lato;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 26px;
+	padding: 25px 20px;
+}
+
+.wwa-nav-item {
+	width: 370px;
+	height: 232px;
+	background-color: #434343;
+	background-image: url(../img/wwa-nav-item-1.png);
+	background-repeat: no-repeat;
+	background-position: 41px 39px;
+	position: relative;
+	float: left;
+	transition: all 0.2s ease-in;
+}
+
+.wwa-nav-item:nth-child(2) {
+	background-image: url(../img/wwa-nav-item-2.png);
+	background-color: #05aecc;
+}
+
+.wwa-nav-item:nth-child(3) {
+	background-image: url(../img/wwa-nav-item-3.png);
+	background-color: #f0626e;
+}
+
+.wwa-nav-item+.wwa-nav-item {
+	margin-left: 30px;
+}
+
+.wwa-nav-item-text {
+	color: white;
+	font-family: Lato;
+	font-size: 30px;
+	font-weight: 400;
+	width: 117px;
+	height: 52px;
+	position: absolute;
+	top: 92px;
+	right: 42px;
+}
+
+.wwa-nav-item:nth-child(2) .wwa-nav-item-text {
+	width: 120px;
+	height: 57px;
+}
+
+.wwa-nav-item:hover {
+	cursor: pointer;
+	opacity: 0.8;
+}
+
+.regnow {
+	width: 648px;
+	height: 61px;
+	background-color: #05aecc;
+	margin: 30px auto;
+	color: white;
+	font-family: Lato;
+	font-size: 28px;
+	font-weight: 400; 
+	text-align: center;
+	line-height: 2;
+}
+
+.regnow:hover {
+	cursor: pointer;
+	background-color: #138DA2;
+}

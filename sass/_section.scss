@@ -1,0 +1,224 @@
+.section-1-left {
+	height: 570px;
+	width: 670px;
+	background-image: url(../img/men-wear.png);
+	position: relative;
+	float: left;
+}
+
+.section-1-left::after, .section-1-right-top::after, .section-1-right-bottom::after, .section-2-left-bottom::after, .section-2-right::after {
+	content: "";
+	width: 100%;
+	height: 100%;
+	background-color: #142251;
+	opacity: 0.13;
+	position: absolute;
+}
+
+.section-1-left-descr {
+	position: absolute;
+	width: 348px;
+	height: 105px;
+	opacity: 0.8;
+	background-color: #362a4f;
+	top: 400px;
+	z-index: 1;
+}
+
+.section-1-left-descr h3 {
+	color: #ef5966;
+	font-family: Aparajita;
+	font-size: 58px;
+	font-weight: 400;
+	text-transform: uppercase;
+	margin: 0;
+	padding: 0 0 0 20px;
+}
+
+.section-1-left-descr p {
+	color: white;
+	font-family: Lato;
+	font-size: 13px;
+	font-weight: 400;
+	text-transform: uppercase;
+	margin: 0;
+	padding: 0 0 0 20px;
+}
+
+.section-1-left-descr a {
+	text-decoration: none;
+}
+
+.section-1-left-descr a:hover h3{
+	text-decoration: underline;
+}
+
+
+.section-1-left-descr-2 {
+	position: absolute;
+	width: 348px;
+	height: 41px;
+	opacity: 0.88;
+	background-color: #ef5966;
+	top: 508px;
+}
+
+.section-1-left-descr-2 p {
+	color: white;
+	font-family: Aparajita;
+	font-size: 20px;
+	font-weight: 400;
+	text-transform: uppercase;
+	padding: 0 0 0 20px;
+	line-height: 0.5;
+}
+
+.section-1-right {
+	height: 570px;
+	width: 494px;
+	float: right;
+}
+
+.section-1-right-top {
+	background-image: url(../img/women-wear.png);
+	position: relative;
+	width: 494px;
+	height: 320px;
+}
+
+.section-1-right-descr {
+	position: absolute;
+	width: 267px;
+	height: 83px;
+	opacity: 0.8;
+	background-color: #362a4f;
+	top: 230px;
+	z-index: 1;
+}
+
+.section-1-right-descr h3 {
+	color: #ef5966;
+	font-family: Aparajita;
+	font-size: 35px;
+	font-weight: 400;
+	text-transform: uppercase;
+	margin: 0;
+	padding: 0 0 0 20px;
+}
+
+.section-1-right-descr p {
+	color: white;
+	font-family: Lato;
+	font-size: 13px;
+	font-weight: 400;
+	text-transform: uppercase;
+	margin: 0;
+	padding: 0 0 0 20px;
+}
+
+.section-1-right-descr a {
+	text-decoration: none;
+}
+
+.section-1-right-descr a:hover h3{
+	text-decoration: underline;
+}
+
+.section-1-right-bottom {
+	background-image: url(../img/baby-shop.png);
+	margin-top: 5px;
+	width: 494px;
+	height: 245px;
+	position: relative;
+}
+
+.btn-baby {
+	position: absolute;
+	width: 292px;
+	height: 55px;
+	background-color: #05aecc;
+	right: 0;
+	bottom: 28px;
+	z-index: 1;
+}
+
+.btn-baby div {
+	float: left;
+}
+
+.btn-baby-1 {
+	height: 55px;
+	width: 100px;
+	color: white;
+	font-family: Lato;
+	font-size: 16px;
+	font-weight: 400;
+	text-align: center;
+	line-height: 3;
+}
+
+.btn-baby-1 a {
+	text-decoration: none;
+	color: white;
+}
+
+.btn-baby-1 a:hover {
+	text-decoration: underline;
+}
+
+.btn-baby-2 {
+	height: 55px;
+	width: 53px;
+	background-color: #00a1be;
+	background-image: url('../img/gift-icon.png');
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.btn-baby-3 {
+	height: 55px;
+	width: 53px;
+	background-color: #f0626e;
+	background-image: url('../img/cart-icon.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	position: relative;
+}
+
+.btn-baby-3:hover {
+	cursor: pointer;
+}
+
+.add-to-cart {
+	position: absolute;
+	width: 111px;
+	height: 37px;
+	background-image: url(../img/bg-add-to-cart.png);
+	text-align: center;
+	line-height: 1.5;
+	top: -31px;
+	left: -28px;
+	visibility: hidden;
+}
+
+.btn-baby-3:hover .add-to-cart{
+	visibility: visible;
+}
+
+.btn-baby-4 {
+	height: 55px;
+	width: 86px;
+	background-color: #323232;
+	color: white;
+	font-family: Lato;
+	font-size: 24px;
+	font-weight: 400;
+	text-align: center;
+	line-height: 2;
+}
+
+.btn-baby-4 span {
+	font-size: 14px;
+	position: relative;
+	top: -6px;
+}

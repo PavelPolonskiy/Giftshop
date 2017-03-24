@@ -1,0 +1,91 @@
+.new-products-nav {
+	height: 79px;
+	margin-top: 26px;
+	border-bottom: 1px solid #b9b9b9;
+	position: relative;
+}
+
+.box-name {
+	margin-left: 31px;
+	color: #00a1be;
+	font-family: Lato;
+	font-size: 30px;
+	font-weight: 400;
+	position: absolute;
+	bottom: 13px;
+}
+
+.box-name::after {
+	content: '';
+	position: absolute;
+	bottom: -14px;
+	left: 0;
+	width: 100%;
+	height: 1px;
+	background-color: #f0626e;
+
+}
+
+.arrows {
+	float: right;
+}
+
+.left-a {
+	width: 70px;
+	height: 79px;
+	background-image: url(../img/left-a.png);
+	margin-right: 1px;
+	float: left;
+}
+
+.right-a {
+	width: 70px;
+	height: 79px;
+	background-image: url(../img/right-a.png);
+	float: right;
+}
+
+.left-a:hover, .right-a:hover {
+	cursor: pointer;
+}
+
+.slider-ul {
+	padding: 0;
+	margin: 16px 0 0 0;
+	height: 200px;
+	width: 9999px;
+	position: relative;
+}
+
+.slider-wrap {
+	overflow: hidden;
+	height: 200px;
+	width: 1170px;
+	position: relative;
+}
+
+.slider-ul li {
+	display: block;
+	float: left;
+	width: 370px;
+	height: 200px;
+	position: relative;
+}
+
+.slider-ul li+li {
+	margin-left: 30px;
+}
+
+.slider-ul .btn-baby {
+	right: 37px;
+	bottom: 67px;
+	visibility: hidden;
+}
+
+.slider-ul li:hover .btn-baby {
+	visibility: visible;
+}
+
+.slider-ul li:hover {
+	cursor: pointer;
+}
