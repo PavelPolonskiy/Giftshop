@@ -57,6 +57,10 @@
 	position: relative;
 }
 
+.slider-ul.new {
+	transition: margin-left .4s ease-out;
+}
+
 .slider-wrap {
 	overflow: hidden;
 	height: 200px;

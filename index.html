@@ -5,8 +5,6 @@
 	<title>GiftShop</title>
 	<link rel="stylesheet" href="css/style.css">
 	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
-	<script src="scripts/jquery-3.1.1.min.js"></script>
-	<script src="scripts/js.js"></script>
 </head>
 <body>
 	<header>
@@ -158,13 +156,13 @@
 			<div class="new-products-nav">
 				<div class="box-name">New Products</div>
 				<div class="arrows">
-					<div class="left-a"></div>
-					<div class="right-a"></div>
+					<div class="left-a n"></div>
+					<div class="right-a n"></div>
 				</div>
 			</div>
 			<div class="slider-wrap">
-				<ul class="slider-ul">
-					<li>
+				<ul class="slider-ul new">
+					<li class="new">
 						<img src="img/slide1.png" alt="">
 						<div class="btn-baby">
 						<div class="btn-baby-1"><a href="#">Baby Shop</a></div>
@@ -175,7 +173,7 @@
 						<div class="btn-baby-4">$99.<span>00</span></div>
 					</div>
 					</li>
-					<li>
+					<li class="new">
 						<img src="img/slide2.png" alt="">
 						<div class="btn-baby">
 						<div class="btn-baby-1"><a href="#">Baby Shop</a></div>
@@ -186,7 +184,7 @@
 						<div class="btn-baby-4">$99.<span>00</span></div>
 					</div>
 					</li>
-					<li>
+					<li class="new">
 						<img src="img/slide3.png" alt="">
 						<div class="btn-baby">
 						<div class="btn-baby-1"><a href="#">Baby Shop</a></div>
@@ -197,8 +195,19 @@
 						<div class="btn-baby-4">$99.<span>00</span></div>
 					</div>
 					</li>
-					<li>
+					<li class="new">
 						<img src="img/slide1.png" alt="">
+						<div class="btn-baby">
+						<div class="btn-baby-1"><a href="#">Baby Shop</a></div>
+						<div class="btn-baby-2"></div>
+						<div class="btn-baby-3">
+							<div class="add-to-cart">add to cart</div>
+						</div>
+						<div class="btn-baby-4">$99.<span>00</span></div>
+					</div>
+					</li>
+					<li class="new">
+						<img src="img/slide2.png" alt="">
 						<div class="btn-baby">
 						<div class="btn-baby-1"><a href="#">Baby Shop</a></div>
 						<div class="btn-baby-2"></div>
@@ -218,8 +227,8 @@
 			<div class="new-products-nav">
 				<div class="box-name">Featured Products</div>
 				<div class="arrows">
-					<div class="left-a pink"></div>
-					<div class="right-a"></div>
+					<div class="left-a pink f"></div>
+					<div class="right-a f"></div>
 				</div>
 			</div>
 			<div class="slider-wrap featured">
@@ -280,6 +289,19 @@
 					</li>
 					<li class="featured">
 						<img src="img/slide-1-f.png" alt="">
+						<div class="price">
+							<div></div>
+							<div></div>
+							<div></div>
+							<div>$99.00</div>
+						</div>
+						<div class="descr-featured">
+							<div class="descr-featured-top">Product Title here</div>
+							<div class="descr-featured-bottom">Short Description here</div>
+						</div>
+					</li>
+					<li class="featured">
+						<img src="img/slide-2-f.png" alt="">
 						<div class="price">
 							<div></div>
 							<div></div>
@@ -395,5 +417,8 @@
 
 
 	</div>
+
+	<script src="scripts/jquery-3.1.1.min.js"></script>
+	<script src="scripts/js.js"></script>
 </body>
 </html>

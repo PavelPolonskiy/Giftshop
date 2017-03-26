@@ -517,6 +517,10 @@ nav ul li:hover .vypad {
   left: 57px;
 }
 
+.section-2-left-top input[placeholder] {
+  padding-left: 20px;
+}
+
 .search {
   background-image: url(../img/loop.png);
   background-repeat: no-repeat;
@@ -658,6 +662,10 @@ nav ul li:hover .vypad {
   position: relative;
 }
 
+.slider-ul.new {
+  transition: margin-left .4s ease-out;
+}
+
 .slider-wrap {
   overflow: hidden;
   height: 200px;
@@ -701,6 +709,7 @@ nav ul li:hover .vypad {
 
 .slider-ul.featured {
   height: 400px;
+  transition: margin-left .4s ease-out;
 }
 
 .slider-wrap.featured {
@@ -1045,3 +1054,5 @@ footer::before {
 .copy-right span {
   color: #f0626e;
 }
+
+/*# sourceMappingURL=style.css.map */
